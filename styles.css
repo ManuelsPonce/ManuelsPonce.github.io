@@ -6,7 +6,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	min-height: 100%;
-    width: 500px;
+    width: 460px;
     word-wrap: break-word;
 	padding-top: 1px;
 }
@@ -21,7 +21,7 @@ a:hover{
 
 body {
 	background-color: #000000;
-	font-size: 10;
+	font-size: 12;
 	align-self: center;
 }
 
