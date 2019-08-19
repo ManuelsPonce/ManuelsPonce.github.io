@@ -1,13 +1,14 @@
 .text {
 	font-family: 'Orbitron', sans-serif;
 	color: #808080;
-	align-self: right;
+	align-self: left;
 	text-align: left;
 	margin-left: auto;
 	margin-right: auto;
 	min-height: 100%;
-    width: 460px;
+    width: 500px;
     word-wrap: break-word;
+	padding-top: 1px;
 }
 a{
 	color: inherit;
@@ -18,18 +19,10 @@ a:hover{
 	transition: color 250ms ease-in-out;
 }
 
-.block1{
-	border-radius: 8px;
-	width: 480px;
-	background-color: #131311;
-	padding: 3px;
-}
-
 body {
 	background-color: #000000;
 	font-size: 10;
 	align-self: center;
 }
 
-	/* color: #161616; */
 
