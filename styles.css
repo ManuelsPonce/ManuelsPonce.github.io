@@ -31,7 +31,7 @@ body {
 	align-self: center;
 }
 
-p:before{
+.writeIn:before{
     content: attr(data-text);
     position: absolute;
     overflow: hidden;
@@ -46,3 +46,34 @@ p:before{
     }
 }
 
+.accordian {
+	font-family: 'Orbitron', sans-serif;
+	background-color: #000;
+	color: #808080;
+	cursor: pointer;
+	padding: 0px;
+	padding-left: 3px;
+	width: 560px;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 14px;
+	transition: .75s;
+	border-radius: 3px;
+	max-width: 100%;
+	margin-top: .5vh;
+	word-wrap: break-word;
+}
+.active, .accordian:hover {
+	background-color: #105289; 
+	width: 560px;	
+}
+.panel {
+		font-size: 14px;
+	padding: 0 18px;
+	background-color: transparent;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	    width: 560px;
+}
