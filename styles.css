@@ -59,19 +59,28 @@ body {
 	outline: none;
 	transition: .75s;
 	border-radius: 3px;
-	max-width: 100%;
+	max-width: 88%;
 	margin-top: .5vh;
 	word-wrap: break-word;
 }
 .active, .accordion:hover {
 	background-color: #105289; 
 	width: 560px;	
+	max-width: 100%;
 }
 .panel {
+	font-size: 3;
+	color: red;
 	padding: 0 18px;
 	background-color: transparent;
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
-	    width: 560px;
+	width: 560px;
+	align-self: left;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 100%;
+    width: 560px;
 }
