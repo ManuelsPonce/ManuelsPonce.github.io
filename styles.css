@@ -19,7 +19,10 @@ a{
 }
 a:hover{
 	color: #105289;
-	transition: color 250ms ease-in-out;
+	transition: color 350ms ease-in-out;
+	-webkit-transition: color 350ms ease-in-out;
+	-moz-transition: color 350ms ease-in-out;
+	-o-transition: color 350ms ease-in-out;
 }
 
 body {
@@ -28,4 +31,18 @@ body {
 	align-self: center;
 }
 
+p:before{
+    content: attr(data-text);
+    position: absolute;
+    overflow: hidden;
+    max-width: 14em;
+    white-space: nowrap;
+    color: 	#808080;
+    animation: loading 1.5s linear;
+}
+@keyframes loading {
+    0% {
+        max-width: 0;
+    }
+}
 
