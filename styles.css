@@ -15,6 +15,7 @@
 	line-height: 1.4;
 	margin-top: 10vh;
 	max-width: 88%;
+	font-size: 15px;
 }
 a{
 	color: inherit;
@@ -63,6 +64,7 @@ body {
 	max-width: 100%;
 	margin-top: .5vh;
 	word-wrap: break-word;
+	font-size: 15px;
 }
 .active, .accordion:hover {
 	background-color: #105289; 
