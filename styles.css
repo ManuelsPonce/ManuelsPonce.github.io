@@ -28,6 +28,17 @@ a:hover{
 	-moz-transition: color 350ms ease-in-out;
 	-o-transition: color 350ms ease-in-out;
 }
+.email-icon {
+	display: inline-block;
+	color: #808080;
+}
+.email-icon:hover {
+	color: #105289;
+}
+.link-block {
+	display: block;
+	margin-top: 1em;
+}
 
 body {
 	background-color: #000000;
